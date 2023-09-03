@@ -22,6 +22,7 @@ public class PlanJourney {
 		HashMap<String, Integer> finalData = new HashMap<String, Integer>();
 		finalData.put("AndhraPradesh-Telangana", 50);
 		finalData.put("AndhraPradesh-Tamilnadu", 60);
+		finalData.put("AndhraPradesh-Goa", 55);
 		System.out.println("Please enter your source from given list");
 		System.out.println(source);
 		String passangerSource = sc.next();
